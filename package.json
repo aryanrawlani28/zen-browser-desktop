@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "lint-staged": {
-    "**/*": ""
+    "**/*.{js,mjs}": [
+      "prettier --write"
+    ]
   },
   "type": "module",
   "scripts": {
